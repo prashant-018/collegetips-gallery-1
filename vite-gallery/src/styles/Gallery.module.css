@@ -1,0 +1,23 @@
+.gallery {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  max-width: 1400px;
+  margin: 0 auto;
+  padding: 2rem;
+  min-height: 100vh;
+}
+
+@media (min-width: 768px) {
+  .gallery {
+    gap: 2.5rem;
+    padding: 2.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gallery {
+    padding: 1rem;
+    gap: 1rem;
+  }
+}
